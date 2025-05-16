@@ -1,0 +1,17 @@
+{
+  "hash": "4aa33899a092a632557a71737d728c2d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Portfolio Project\"\nformat: html\nexecute:\n  echo: false\n  warning: false\n  message: false\nembed-resources: true\n---\n\n\n\n\n# Data Description\n\n> My dataset is the UNESCO World Inequality Database, and it has a detailed database on education rates for different demographics. Some of these demographics includde age, sex, country, region, and others. Along with this, it also has different categories of education like primary, secondary, and upper education. The source for the database and further explanations of the database and how it is obtained can be found here: https://www.education-inequalities.org/\n\n# Data Cleaning\n\n> To clean the data, I took the raw dataset and split it into 3 components for what I wanted my visualization to be. The first I wanted only entries that had a defined region group, the second I wanted to split entries into pre and post covid, and for the last I wanted to split the dabase based on sex. For each of these, I cleaned the data to get rid of NA values and added additional information where needed.\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n# Visualization 1: Completion of High School by Region\n\n> The visualization here is a plot that depicts different region groups, and the distribution of the proportion of people currently aged 20-29 that have completed upper edducation. Typically, this means high school or some equivalent. Different region groups are seperated by color.\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](portfolio-project_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n\n\n# Visualization 2: Completion of High School Over Time\n\n> This visualization shows a linear graph of the median proportion of people aged 20-29 (at some given year) who have completed some upper education. The graph's colors are split into pre and post covid. Along with this, at 3 other notable dips a label has been added that can partially explain what caused the dip in between the years. The median here is not calculated on population, but rather a median of a country's proportion, so population is not accounted for.\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](portfolio-project_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n\n\n\n# Visualization 3: Disparity of Education by Sex\n\n> This visualization shows the gap in median proportions of students aged 20-29 (during a given year) who have completedd upper education or some equivalent. The area under the graph being blue signifies that a larger proportion of men had completed this education than women. Pink signifies the opposite. The proportions used are means of country proportions, so population is not accounted for in this visualization.\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](portfolio-project_files/figure-html/unnamed-chunk-4-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "portfolio-project_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
