@@ -1,12 +1,13 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Portfolio Marcos Palominos"
   navbar:
     left:
       - text: Portfolio Project
-        href: portfolio-project/portfolio-project.qmd 
+        href: index.qmd 
 
 format:
   html:
